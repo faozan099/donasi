@@ -1,0 +1,71 @@
+.wrapper2{
+    width: 100%;
+margin-top: 20px;
+}
+
+.bg{
+background-image: url(./bg-info.jpg);
+background-size: cover;
+margin-right: 24px;
+margin-left: 24px;
+height: 710px;
+display: flex;
+}
+
+.bg img {
+    width: 600px;
+    height: 623px;
+    padding-left: 86px;
+    padding-top: 54px;
+    position: relative;
+}
+.bg .info {
+    position: absolute;
+    right: 620px;
+    top: 960px;
+    background-color: #285C9D;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 260px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.donasi{
+    margin-left: 105px;
+    margin-right: 76px;
+    width: 480px;
+    height: auto;
+    padding-top: 110px;
+}
+
+.donasi p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donasi .judul {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.donasi .judul2 {
+    margin-top: 75px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.iconsInfo{
+    padding: 0;
+    margin-left: 20px;
+    width: 36px;
+    height: 36px;
+}
