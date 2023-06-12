@@ -10,7 +10,7 @@ function AcceptPembayaran() {
           <div id="pmbksKetiga">
             <Form>
               <p>Isi nominal Donasi</p>
-              <input type="text" className="valueNominal" />
+              <input type="text" className="valueNominal"/>
               <div id="valid">
                 <img src={bca} alt="" />
                 <p>BCA Virtual Account</p>
