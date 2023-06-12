@@ -10,14 +10,15 @@ function AcceptPembayaran() {
           <div id="pmbksKetiga">
             <Form>
               <p>Isi nominal Donasi</p>
-              <input type="text" value="Rp. 10.000" className="valueNominal" />
+              <input type="text" className="valueNominal" />
               <div id="valid">
                 <img src={bca} alt="" />
                 <p>BCA Virtual Account</p>
                 <a href="/pembayaran">Ganti</a>
               </div>
               <input type="text" className="valueUsername" placeholder="Nama lengkap" />
-              <input type="text" className="inputEmail" placeholder="Alamat Email" />
+              <input type="email" className="inputEmail" placeholder="Alamat Email" />
+              <input type="email" className="inputEmail" placeholder="No Rekening" />
               <div id="keiinginanUser">
                 <p>Sembunyikan nama saya (donasi sebagai anonim)</p>
                 <Form.Check type="switch" id="custom-switch" className="check" />

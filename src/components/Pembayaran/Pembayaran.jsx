@@ -12,7 +12,7 @@ function Pembayaran() {
         <div id="pbks">
           <form action="">
             <p>Nominal Pembayaran</p>
-            <input className="besar" type="text" placeholder="Rp." />
+            <input className="besar" type="tel" placeholder="Rp." />
             <span className="spanPembayaran">Nominal pembayaran RP. 10.000</span>
             <div>
               <p className="jenisPembayaran">Virtual Account (verifikasi otomatis, minimal nominal Rp. 10.000)</p>

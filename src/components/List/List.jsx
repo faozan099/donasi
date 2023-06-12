@@ -19,10 +19,10 @@ function List() {
             <div className="judulDonasi">
               <p>Bantu Kesejahteraan anak-anak di bagian timur Indonesia</p>
               <div id="wrapperDonasi">
-                <span className="deskripsiDonasi2">
-                  tantangan utama yang dihadapi oleh ekonomi di Indonesia bagian timur adalah keterbatasan akses ke pasar, infrastruktur yang terbatas, serta tingkat pendidikan dan keterampilan yang rendah. Hal ini menghambat pertumbuhan
+                <p className="deskripsiDonasi2">
+                  Tantangan utama yang dihadapi oleh ekonomi di Indonesia bagian timur adalah keterbatasan akses ke pasar, infrastruktur yang terbatas, serta tingkat pendidikan dan keterampilan yang rendah. Hal ini menghambat pertumbuhan
                   ekonomi dan pengembangan sektor industri yang lebih maju.
-                </span>
+                </p>
               </div>
               <a href="/pembayaran" className="btnDonasi">
                 Donasi
@@ -36,10 +36,10 @@ function List() {
             <div className="judulDonasi">
               <p>Bantu masyarakat yang terkana dampak bencana alam</p>
               <div id="wrapperDonasi">
-                <span className="deskripsiDonasi2">
+                <p className="deskripsiDonasi2">
                   Bencana alam dapat menyebabkan kerugian ekonomi yang signifikan. Infrastruktur seperti jalan, jembatan, dan bangunan dapat rusak atau hancur, menghambat aktivitas ekonomi dan mobilitas penduduk. Sektor industri dan
                   pertanian juga dapat terpengaruh, mengakibatkan penurunan produksi, hilangnya mata pencaharian, dan meningkatnya tingkat pengangguran.
-                </span>
+                </p>
               </div>
               <a href="/pembayaran" className="btnDonasi">
                 Donasi

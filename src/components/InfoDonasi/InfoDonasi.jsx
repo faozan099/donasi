@@ -14,25 +14,25 @@ function InfoDonasi() {
         <div className="donasi">
           <p className="judul">KEMANA KITA AKAN BERIKAN?</p>
           <br />
-          <p>Bantuan ini kami berikan kepada masyarakat yang berkebutuhan khusus, secara ekonomi maupun secara fisik. karna bantuan dari kalian lah yang bisa membuat mereka kuat. </p>
+          <p className="p">Bantuan ini kami berikan kepada masyarakat yang berkebutuhan khusus, secara ekonomi maupun secara fisik. karna bantuan dari kalian lah yang bisa membuat mereka kuat. </p>
           <p className="judul2">Manfaat Donasi yang diberikan kepada mereka</p>
           <Row className="mt-2">
             <Col className="col-2">
               <MdWavingHand className="iconsInfo ml-5" />
             </Col>
-            <Col>Meningkatkan Solidaritas antar sesama</Col>
+            <Col><p className="dkr">Meningkatkan Solidaritas antar sesama</p></Col>
           </Row>
           <Row className="mt-2">
             <Col className="col-2">
               <MdFastfood className="iconsInfo ml-5" />
             </Col>
-            <Col>Memberikan makanan yang layak bagi mereka</Col>
+            <Col><p className="dkr">Memberikan makanan yang layak bagi mereka</p></Col>
           </Row>
           <Row className="mt-2">
             <Col className="col-2">
               <FaSchool className="iconsInfo ml-2" />
             </Col>
-            <Col >Memberikan mereka fasilitas belajar dan memberikan harapan akan cita-cita mereka</Col>
+            <Col><p className="dkr">Memberikan mereka fasilitas belajar dan memberikan harapan akan cita-cita mereka</p></Col>
           </Row>
         </div>
       </div>
